@@ -1,9 +1,34 @@
-<!doctype html>
+
+<!DOCTYPE html>
 <html>
     <head>
-
+        <title>Heroes of Might and Magic</title>
+        <link rel="stylesheet" href="styles.css">
+        <script>
+            function great ()
+            {
+                alert ("hello, " + document. querySelector("#name").value);
+            }
+        </script>
     </head>
     <body>
-        start
+        <font face="lucida console">
+        <img src="https://upload.wikimedia.org/wikipedia/ru/d/d8/Heroes_of_Might_and_Magic_%28%D0%BB%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D1%81%D0%B5%D1%80%D0%B8%D0%B8%29.png">
+        <h1>!!!HoMM cafe!!!</h1>
+        <div align="right">
+        <b>
+            <br><a href="1.html">about</a>
+            <br><a href="2.html">socials</a>
+            <br><a href="3.html">games and mods</a>
+        </b>
+        </div>
+        <div align="center">
+            <h1>⇩⇩⇩guest book⇩⇩⇩</h1>
+            <br><form onsubmit="great(); return false;">
+            <input type="text" placeholder="guest's name" id="name">
+            <input type="submit">
+            </form>
+        </div>
+        </font>
     </body>
 </html>
